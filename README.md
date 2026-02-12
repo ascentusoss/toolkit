@@ -1,4 +1,4 @@
-Se a documentação ta ok eu não sei, atualizei os nomes pra não ficar como se eu tivesse preguça ate de arrumar um nome.
+Se a documentação ta ok eu não sei, atualizei os nomes pra não ficar como se eu tivesse preguiça ate de arrumar um nome.
 
 # @ascentusoss/shared-config
 
