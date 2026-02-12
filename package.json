@@ -27,11 +27,7 @@
     "./markdown/remark": "./configs/markdown/.remarkrc.cjs",
     "./markdown/markdownlint": "./configs/markdown/.markdownlint.json"
   },
-  "files": [
-    "configs/**/*",
-    "README.md",
-    "LICENSE"
-  ],
+  "files": ["configs/**/*", "README.md", "LICENSE"],
   "repository": {
     "type": "git",
     "url": "https://github.com/moralus/shared-config.git"

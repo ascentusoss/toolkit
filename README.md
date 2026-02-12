@@ -1,4 +1,6 @@
-# @morallus-software/shared-config
+Se a documentação ta ok eu não sei, atualizei os nomes pra não ficar como se eu tivesse preguça ate de arrumar um nome.
+
+# @ascentusoss/shared-config
 
 Configurações compartilhadas de lint e formatadores para manter consistência entre projetos da Morallus Software.
 
@@ -17,7 +19,7 @@ Inclui presets para:
 ## Instalação
 
 ```bash
-npm i -D @morallus-software/shared-config
+npm i -D @ascentusoss/shared-config
 ```
 
 Observação: este pacote expõe apenas configurações. As ferramentas (eslint, prettier, stylelint, etc.) entram como peerDependencies; instale as que você for usar.
@@ -28,9 +30,9 @@ Observação: este pacote expõe apenas configurações. As ferramentas (eslint,
 
 ```js
 // eslint.config.js
-import base from "@morallus-software/shared-config/eslint/base";
-import typescript from "@morallus-software/shared-config/eslint/typescript";
-import react from "@morallus-software/shared-config/eslint/react";
+import base from "@ascentusoss/shared-config/eslint/base";
+import typescript from "@ascentusoss/shared-config/eslint/typescript";
+import react from "@ascentusoss/shared-config/eslint/react";
 
 export default [
   ...base,
@@ -44,20 +46,20 @@ export default [
 Padrão:
 
 ```json
-"@morallus-software/shared-config/prettier"
+"@ascentusoss/shared-config/prettier"
 ```
 
 Variante Tailwind:
 
 ```json
-"@morallus-software/shared-config/prettier/tailwind"
+"@ascentusoss/shared-config/prettier/tailwind"
 ```
 
 ### Stylelint
 
 ```json
 {
-  "extends": "@morallus-software/shared-config/stylelint"
+  "extends": "@ascentusoss/shared-config/stylelint"
 }
 ```
 
@@ -65,45 +67,45 @@ Variante Tailwind:
 
 ```js
 // postcss.config.js
-export { default } from "@morallus-software/shared-config/postcss";
+export { default } from "@ascentusoss/shared-config/postcss";
 ```
 
 ### SVGO
 
 ```js
 // svgo.config.js
-export { default } from "@morallus-software/shared-config/svgo";
+export { default } from "@ascentusoss/shared-config/svgo";
 ```
 
 ### EditorConfig
 
 ```bash
-cp node_modules/@morallus-software/shared-config/configs/.editorconfig ./.editorconfig
+cp node_modules/@ascentusoss/shared-config/configs/.editorconfig ./.editorconfig
 ```
 
 ## Export paths
 
 Principais entrypoints disponíveis via `exports`:
 
-- `@morallus-software/shared-config/eslint/base`
-- `@morallus-software/shared-config/eslint/typescript`
-- `@morallus-software/shared-config/eslint/react`
-- `@morallus-software/shared-config/eslint/node`
-- `@morallus-software/shared-config/eslint/browser`
-- `@morallus-software/shared-config/prettier`
-- `@morallus-software/shared-config/prettier/tailwind`
-- `@morallus-software/shared-config/stylelint`
-- `@morallus-software/shared-config/postcss`
-- `@morallus-software/shared-config/svgo`
-- `@morallus-software/shared-config/editorconfig`
-- `@morallus-software/shared-config/sql/postgres`
-- `@morallus-software/shared-config/sql/sqlite`
-- `@morallus-software/shared-config/sql/sqlformat`
-- `@morallus-software/shared-config/sql/sqliterc`
-- `@morallus-software/shared-config/yaml/yamllint`
-- `@morallus-software/shared-config/yaml/yaml-lint-json`
-- `@morallus-software/shared-config/markdown/remark`
-- `@morallus-software/shared-config/markdown/markdownlint`
+- `@ascentusoss/shared-config/eslint/base`
+- `@ascentusoss/shared-config/eslint/typescript`
+- `@ascentusoss/shared-config/eslint/react`
+- `@ascentusoss/shared-config/eslint/node`
+- `@ascentusoss/shared-config/eslint/browser`
+- `@ascentusoss/shared-config/prettier`
+- `@ascentusoss/shared-config/prettier/tailwind`
+- `@ascentusoss/shared-config/stylelint`
+- `@ascentusoss/shared-config/postcss`
+- `@ascentusoss/shared-config/svgo`
+- `@ascentusoss/shared-config/editorconfig`
+- `@ascentusoss/shared-config/sql/postgres`
+- `@ascentusoss/shared-config/sql/sqlite`
+- `@ascentusoss/shared-config/sql/sqlformat`
+- `@ascentusoss/shared-config/sql/sqliterc`
+- `@ascentusoss/shared-config/yaml/yamllint`
+- `@ascentusoss/shared-config/yaml/yaml-lint-json`
+- `@ascentusoss/shared-config/markdown/remark`
+- `@ascentusoss/shared-config/markdown/markdownlint`
 
 ## Licença
 
@@ -165,7 +167,7 @@ Crie um `.npmrc` no projeto alvo contendo (ou configure seu ~/.npmrc):
 E depois rode:
 
 ```bash
-npm install --save-dev @morallus-software/shared-config
+npm install --save-dev @ascentusoss/shared-config
 ```
 
 Observações de segurança:
@@ -178,4 +180,4 @@ Observações de segurança:
 
 ## Licença
 
-MIT © Italo Lopes
+MIT © Italo C Lopes
